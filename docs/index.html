@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>OBJ loader</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="shortcut icon" href="#" />
+
+	    <link rel="stylesheet" href="https://developer.api.autodesk.com/viewingservice/v1/viewers/style.min.css?v=v3.3" type="text/css">
+	    <script src="https://developer.api.autodesk.com/viewingservice/v1/viewers/viewer3D.js?v=v3.3"></script>
+	    <script src="https://developer.api.autodesk.com/viewingservice/v1/viewers/three.js?v=v3.3"></script>
+	    <script src="./extensions/OBJLoader.js"></script>
+		<script src="./extensions/cameraHelper.js"></script>
+		<script src="./extensions/Transform1.js"></script>
+		
+		<script src="app.js"></script>
+	    <style> h2 {font-family:arial; position:absolute; margin:20px; color:darkblue; z-index:1;}</style>
+
+	</head>
+    <body onload="initializeViewer();" style="margin:0">
+	    <div id="forgeViewer" ></div>
+	    <h2> Camera Views </h2>
+	</body>
+</html>
